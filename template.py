@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-project_name = 'retail-price-optimization'
+project_name = 'RetailPriceOptimization'
 
 list_of_files = [
     ".github/workflows/.gitkeep",
