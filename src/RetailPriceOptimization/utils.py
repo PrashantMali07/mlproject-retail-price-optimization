@@ -11,6 +11,9 @@ import pymysql
 import pickle
 import numpy as np
 
+import warnings
+warnings.filterwarnings('ignore')
+
 load_dotenv()
 
 host=os.getenv("host")
@@ -35,8 +38,6 @@ def read_sql_data():
         print(df.head())
 
         return df
-
-
 
     except Exception as ex:
         raise CustomException(ex,sys)
