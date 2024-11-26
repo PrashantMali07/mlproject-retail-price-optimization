@@ -6,7 +6,7 @@ from datetime import datetime
 import warnings
 warnings.filterwarnings('ignore')
 
-log_file_name = f"{datetime.now().strftime("%m_%d_%Y_%H_%M_%S")}.log"
+log_file_name = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 log_file_path = os.path.join(os.getcwd(), "logs", log_file_name)
 os.makedirs(log_file_path, exist_ok=True)
 
