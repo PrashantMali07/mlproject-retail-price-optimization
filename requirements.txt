@@ -10,8 +10,4 @@ seaborn
 catboost
 xgboost
 mlflow
-<<<<<<< HEAD
-# -e .
-=======
 #-e .
->>>>>>> 8e2a1e7679bca6c786632a659fe8c167dee63851
