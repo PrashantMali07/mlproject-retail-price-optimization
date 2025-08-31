@@ -19,7 +19,7 @@ load_dotenv()
 host=os.getenv("host")
 user=os.getenv("user")
 password=os.getenv("password")
-db=os.getenv('db')
+db=os.getenv('database')
 
 
 
@@ -31,9 +31,9 @@ def read_sql_data():
             user=user,
             password=password,
             db=db,
-            port= 33061
+            port= 3306
         )
-        logging.info("Connection Established",mydb)
+        logging.info(f"Connection Established: {mydb}")
         df=pd.read_sql_query('Select * from retail_price',mydb)
         print(df.head())
 
