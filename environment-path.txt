@@ -1,0 +1,1 @@
+Retail price environment activation path: conda activate /home/prashant/Documents/mlprojects/retail-price-optimization/retailprice-venv
